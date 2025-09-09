@@ -113,4 +113,9 @@ class AbrigoAnimais {
 }
 }
 
+const teste = new AbrigoAnimais().encontraPessoas(
+      'RATO,BOLA', 'RATO,NOVELO', 'Rex,Fofo');
+
+console.log(teste); // testar no terminal
+
 export { AbrigoAnimais as AbrigoAnimais };
